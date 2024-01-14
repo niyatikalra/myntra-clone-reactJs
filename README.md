@@ -1,8 +1,28 @@
-# React + Vite
+# Myntra Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a Myntra clone developed with **React Vite** for the frontend and a **Node.js backend** for data fetching. It utilizes React **hooks** for state management, **Redux** for global state management, and React **Router** for navigation. The application consists of two main pages - the product listing page and the cart page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+
+1. **Product Listing Page:**
+   - Displays a list of available items for purchase.
+   - Each item includes details such as name, price, and an "Add to Cart" button.
+
+2. **Cart Page:**
+   - Shows the items added to the cart on the product listing page.
+   - Provides a summary of the cart, including the total price of the selected items.
+
+3. **Backend Integration:**
+   - Utilizes a Node.js backend for data fetching to simulate real-world scenarios.
+   - Fetches product data from the backend to populate the product listing.
+
+### Technologies Used
+
+- React Vite
+- React Hooks
+- Redux
+- React Router
+- Node.js
+
