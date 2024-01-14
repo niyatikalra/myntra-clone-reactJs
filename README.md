@@ -1,2 +1,8 @@
-# myntra-clone-reactJs
-This project is a simplified clone of the popular online shopping platform, Myntra. It is built using React with hooks for state management, Redux for global state management, and React Router for navigation. The application consists of two main pages - the product listing page and the cart page.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
